@@ -1,0 +1,123 @@
+
+/* start : 스와이퍼 */
+.mySwiper3 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.mySwiper3 .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.mySwiper3 .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mySwiper3 {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin: 20px auto;
+}
+
+/* end : 스와이퍼 */
+
+
+/* start : 다다일상 기록 */
+.write {
+    width: 100%;
+    margin-top: 114px;
+}
+.writebox_for_p{
+    max-width: 1240px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wr_w1200{
+    max-width: 1240px;
+    padding: 0 20px;
+    position: relative;
+}
+.wr_text{
+    margin-top: 18px;
+    text-align: left;
+}
+.wr_text > .wr_text01{
+    font-size: 20px;
+}
+.wr_text > .wr_text02{
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
+.wr_w1200:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 100%;
+    background: linear-gradient(to left, rgba(255, 255, 255, 1), transparent 100%);
+    z-index: 10;
+}
+
+.wr_w1200 > .swiper-button-prev3 {
+    position: absolute;
+    display: block;
+    top: 35%;
+    left: 0;
+    transform: translate(-100%, 0);
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    background: url("../img/main_prev_btn_hover.png") no-repeat center / cover;  
+}
+.swiper-button-next3 .swiper-button-disabled{
+    opacity: 1;
+}
+
+.wr_w1200 > .swiper-button-next3 {
+    position: absolute;
+    display: block;
+    top: 35%;
+    left: 96%;
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    transform: translate(100%, 0);
+    background: url("../img/main_next_btn_hover.png") no-repeat center / cover;
+    z-index: 50;   
+}
+.swiper-button-next3-disabled {
+    opacity: 1;
+}
+
+
+
+
+/* .wr_w1200 > .swiper-button-next::after,
+.wr_w1200 > .swiper-button-prev::after {
+  display: none;
+} */
+/* end : 다다일상 기록 */

@@ -1,0 +1,80 @@
+.pro_w1200{
+    max-width: 1280px;
+    height: 350px;
+    padding: 0 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pro_box{
+    position: relative;
+    height: 100%;
+}
+
+.mySwiper2 {
+    width: 100%;
+    height: 350px;
+    position: static;
+    overflow: hidden;
+}
+
+.mySwiper2 .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    /* display: -webkit-box; */
+    display: -ms-flexbox;
+    /* display: -webkit-flex; */
+    /* display: flex; */
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.mySwiper2 .swiper-slide img {
+    object-fit: cover;
+}
+
+.mySwiper2 {
+    width: 100%;
+    margin: 20px auto;
+}
+
+
+.pro01 > .swiper-button-prev2 {
+    position: absolute;
+    display: block;
+    top: 40%;
+    right: 98%;
+    transform: translate(-100%, 0);
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    background: url("../img/main_prev_btn.png") no-repeat center / cover; 
+    z-index: 50;
+}
+.pro01 > .swiper-button-prev2:hover{
+    background-image: url("../img/main_prev_btn_hover.png");
+}
+
+.pro01 > .swiper-button-next2 {
+    position: absolute;
+    display: block;
+    top: 40%;
+    left: 100%;
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    background: url("../img/main_next_btn.png") no-repeat center / cover;   
+    z-index: 50;
+}
+.pro01 > .swiper-button-next2:hover{
+    background-image: url("../img/main_next_btn_hover.png");
+}
